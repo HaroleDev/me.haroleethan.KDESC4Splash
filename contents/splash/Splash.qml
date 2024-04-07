@@ -130,31 +130,31 @@ Image {
         source: "images/rectangle.png"
         Image {
             id: icon1
-            x: (48 * 0) + (18 * 0) + 18
+            x: (48 * 0) + (18 * 0) + 20
             y: 80
             visible: stage >= 1
         }
         Image {
             id: icon2
-            x: (48 * 1) + (18 * 1) + 18
+            x: (48 * 1) + (18 * 1) + 20
             y: 80
             visible: stage >= 2
         }
         Image {
             id: icon3
-            x: (48 * 2) + (18 * 2) + 18
+            x: (48 * 2) + (18 * 2) + 20
             y: 80
             visible: stage >= 3
         }
         Image {
             id: icon4
-            x: (48 * 3) + (18 * 3) + 18
+            x: (48 * 3) + (18 * 3) + 20
             y: 80
             visible: stage >= 4
         }
         Image {
             id: icon5
-            x: (31 * 4) + (18 * 4) + 18 + 48 + 16
+            x: (31 * 4) + (18 * 4) + 20 + 48 + 16
             y: 80 - (48 - 12 - 1)
             visible: stage >= 5
         }
