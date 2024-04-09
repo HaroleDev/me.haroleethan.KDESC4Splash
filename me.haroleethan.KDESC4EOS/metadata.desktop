@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=A recreation of KDE Software Compilation 4(.0)'s Splash Screen
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Name=EOS (Recreation)
+
+Type=Service
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-PluginInfo-Author=Harole
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=teraos@protonmail.com
+X-KDE-PluginInfo-License=GPLv2+
+X-KDE-PluginInfo-Name=me.haroleethan.KDESC4EOS
+X-KDE-PluginInfo-Version=0.5
+X-KDE-PluginInfo-Website=https://haroleethan.studio.site

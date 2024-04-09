@@ -45,7 +45,7 @@ Image {
 
     Timer {
         id: icon1Timer
-        interval: 31  // Adjust this value to control the frame rate
+        interval: 31 * (7/3)  // Adjust this value to control the frame rate
         running: false
         repeat: true
         onTriggered: {
@@ -61,7 +61,7 @@ Image {
 
     Timer {
         id: icon2Timer
-        interval: 31
+        interval: icon1Timer.interval
         running: false
         repeat: true
         onTriggered: {
@@ -77,7 +77,7 @@ Image {
 
     Timer {
         id: icon3Timer
-        interval: 31
+        interval: icon2Timer.interval
         running: false
         repeat: true
         onTriggered: {
@@ -93,7 +93,7 @@ Image {
 
     Timer {
         id: icon4Timer
-        interval: 31
+        interval: icon3Timer.interval
         running: false
         repeat: true
         onTriggered: {
@@ -109,7 +109,7 @@ Image {
 
     Timer {
         id: icon5Timer
-        interval: 31
+        interval: icon4Timer.interval
         running: false
         repeat: true
         onTriggered: {
@@ -137,25 +137,25 @@ Image {
         Image {
             id: icon2
             x: (48 * 1) + (18 * 1) + 20
-            y: 80
+            y: icon1.y
             visible: stage >= 2
         }
         Image {
             id: icon3
             x: (48 * 2) + (18 * 2) + 20
-            y: 80
+            y: icon2.y
             visible: stage >= 3
         }
         Image {
             id: icon4
             x: (48 * 3) + (18 * 3) + 20
-            y: 80
+            y: icon3.y
             visible: stage >= 4
         }
         Image {
             id: icon5
             x: (31 * 4) + (18 * 4) + 20 + 48 + 16
-            y: 80 - (48 - 12)
+            y: icon4.y - (48 - 12)
             visible: stage >= 5
         }
     }
