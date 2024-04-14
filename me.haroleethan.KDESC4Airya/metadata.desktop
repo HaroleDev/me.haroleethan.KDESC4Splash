@@ -1,7 +1,7 @@
 [Desktop Entry]
-Comment=A recreation of KDE Software Compilation 4(.10)'s Splash Screen
+Comment=A recreation of KDE Software Compilation 4(.8)'s Splash Screen
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-Name=Airya (Recreation)
+Name=Airya
 
 Type=Service
 X-KDE-ServiceTypes=Plasma/LookAndFeel
@@ -10,5 +10,5 @@ X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Email=teraos@protonmail.com
 X-KDE-PluginInfo-License=GPLv2+
 X-KDE-PluginInfo-Name=me.haroleethan.KDESC4Airya
-X-KDE-PluginInfo-Version=0.5
+X-KDE-PluginInfo-Version=0.55
 X-KDE-PluginInfo-Website=https://haroleethan.studio.site
